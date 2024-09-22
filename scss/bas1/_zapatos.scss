@@ -22,7 +22,7 @@
   section {
 
     .presentacion-zapatos {
-      @include flex-between;
+      @include flex-around;
       .imag-zapatos {
         img {
           width: 600px;

@@ -143,7 +143,7 @@ body {
 }
 .principal-main-zapatos section .presentacion-zapatos {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .principal-main-zapatos section .presentacion-zapatos .imag-zapatos img {
   width: 600px;
