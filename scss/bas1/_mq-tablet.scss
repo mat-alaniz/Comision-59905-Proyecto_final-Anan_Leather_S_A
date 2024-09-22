@@ -36,7 +36,6 @@
   }
   /*estilos tablet pag marroquineria*/
 
- 
   .fila {
     margin-top: -50px;
     display: grid;
@@ -51,10 +50,17 @@
     @include borrar;
   }
   /*estolos tablet para pg vestimenta*/
+.foto-campera{
+  display: flex;
+  justify-content: center;
+  
+  width: 80%;
+  
+}
   .principal-v {
     @include grid-fr;
-    margin: 10px;
   }
+
   .contenedor-v .tex-v h1 {
     @include flex-centro;
   }

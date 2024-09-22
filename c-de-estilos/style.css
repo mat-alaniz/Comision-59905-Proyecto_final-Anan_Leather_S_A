@@ -225,7 +225,7 @@ body {
 .principal-v .foto-principal-v img {
   position: relative;
   top: 60px;
-  margin-left: 127px;
+  margin-left: 100px;
 }
 .principal-v .contenedor-v .tex-v {
   display: flex;
@@ -445,11 +445,15 @@ body {
     display: none;
   }
   /*estolos tablet para pg vestimenta*/
+  .foto-campera {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+  }
   .principal-v {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    margin: 10px;
   }
   .contenedor-v .tex-v h1 {
     display: flex;
