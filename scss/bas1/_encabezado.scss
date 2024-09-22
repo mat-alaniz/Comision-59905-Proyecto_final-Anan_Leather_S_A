@@ -1,0 +1,36 @@
+@import "../utilidades/variables";
+
+
+.encabezado {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  background-color: $color-encab;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  height: 50px;
+  nav {
+    .container-fluid {
+      .boton-color {
+        background-color:$color-sombra;
+      }
+      .estilos-nav {
+        font-size: 24px;
+        background-color: #2e5f9b2d;
+        border-radius: 15px;
+      }
+      a {
+        text-decoration: none;
+        margin-right: 70px;
+        color: rgb(2, 2, 2);
+        font-size: 24px;
+        font-family: "Edu VIC WA NT Beginner", cursive;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        cursor: pointer;
+      }
+    }
+  }
+}

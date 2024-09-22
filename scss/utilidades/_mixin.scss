@@ -1,0 +1,20 @@
+@mixin flex-centro {
+  display: flex;
+  justify-content: center;
+}
+@mixin flex-around {
+  display: flex;
+  justify-content: space-around;
+}
+@mixin flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+@mixin grid-fr {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+@mixin borrar{
+    display: none;
+}

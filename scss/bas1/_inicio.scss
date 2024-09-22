@@ -1,0 +1,69 @@
+/*estilos del main inicial*/
+@import "../utilidades/variables";
+@import "../utilidades/mixin";
+
+
+.principal-main-inicio {
+  .presentacion {
+    @include flex-centro;
+    .foto img {
+      width: 1250px;
+      height: 330px;
+      position: relative;
+      margin-top: 55px;
+    }
+  }
+
+  h1 {
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    margin: 25px;
+    color: #fff;
+    text-shadow: 3px 5px 10px $color-sombra;
+  }
+  .video {
+    @include flex-centro;
+    margin: 80px;
+  }
+  .texto-inicio p {
+    text-align: center;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 28px;
+    position: relative;
+    margin: 150px;
+  }
+}
+.section-2 {
+  @include flex-around;
+  margin: 50px;
+  
+  .imag1 img {
+    height: 350px;
+    width: 500px;
+    border-radius: 25px;
+  }
+  .imag2 img {
+    height: 350px;
+    width: 500px;
+    border-radius: 25px;
+  }
+}
+.tex{
+    .texto-explicativo p {
+        text-align: center;
+        font-family: "Caveat", cursive;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        font-size: 28px;
+        position: relative;
+        margin: 100px;
+      }
+}

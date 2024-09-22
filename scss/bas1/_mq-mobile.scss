@@ -1,0 +1,53 @@
+@import "../utilidades/variables";
+@import "../utilidades/mixin";
+/*estilos pra mobile*/
+@media screen and (max-width: 599px) {
+  /*estilos para mobile pag de incio */
+  .principal-main-inicio .foto img {
+    @include borrar;
+  }
+  .principal-main-inicio h1 {
+    margin-top: 15%;
+  }
+  .texto-inicio p {
+    display: inline-block;
+    margin-left: 30%;
+  }
+  .final-pag {
+    @include flex-centro;
+    gap: 50px;
+  }
+  /*estilo para mobile pag zapatos*/
+  .presentacion-zapatos .img-red {
+    @include borrar;
+  }
+  .imag-zapatos-mujer .img-red {
+    @include borrar;
+  }
+
+  /*estilos para mobile pag marroniqueria*/
+  .fila {
+    margin-top: 50px;
+  }
+  .principal-main-marroquineria .titulo-m h1 {
+    font-size: 60px;
+    position: relative;
+    top: 45px;
+    margin-left: 0px;
+  }
+  /*estilos para mobile pag vestimenta*/
+  .principal-v .foto-principal-v img {
+    height: 500px;
+    width: 400px;
+    margin-left: 28px;
+  }
+
+  .imag-parte2 .fotos-v .fot {
+    @include borrar;
+  }
+  .imag-parte2 .fotos-v {
+    height: 100%;
+    margin: 15px;
+    gap: 40px;
+  }
+}

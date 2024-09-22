@@ -1,0 +1,55 @@
+/*estilos pagina marroquineria*/
+@import "../utilidades/variables";
+@import "../utilidades/mixin";
+
+.principal-main-marroquineria {
+  .titulo-m h1{
+    display: flex;
+    justify-content: flex-start;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 80px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 3px 5px 15px $color-sombra;
+    position: relative;
+    top: 120px;
+    margin-left: 30px;
+  }
+  .fila {
+    img {
+      width: 100%;
+      &:hover {
+        transform: scale(1.4);
+        transition: 1.8s;
+        cursor: pointer;
+      }
+    }
+    @include flex-around;
+    align-items: center;
+    flex-wrap: no-wrap;
+    
+    .columna {
+      flex: 30%;
+    }
+    .columna2 img {
+      display: flex;
+      justify-content: space-around;
+      height: 450px;
+      width: 320px;
+      flex: 25%;
+    }
+  }
+}
+.tex-m {
+  text-align: center;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 28px;
+  position: relative;
+  margin: 80px;
+}
