@@ -1,0 +1,513 @@
+/*letra h1 index*/
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap");
+/*letra de b.nav*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+/*letra de p*/
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
+/*letra footer*/
+@import url("https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Caveat:wght@400..700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap");
+/*letra <p> contacto*/
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap");
+* {
+  outline: none;
+  border: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(221, 221, 221);
+}
+
+.padre {
+  height: 100vh; /*ver height alto*/
+  width: 100%; /*ver width ancho*/
+  margin: auto;
+}
+
+.encabezado {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  background-color: rgba(249, 254, 255, 0.851);
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  height: 50px;
+}
+.encabezado nav .container-fluid .boton-color {
+  background-color: #2e5f9b;
+}
+.encabezado nav .container-fluid .estilos-nav {
+  font-size: 24px;
+  background-color: rgba(46, 95, 155, 0.1764705882);
+  border-radius: 15px;
+}
+.encabezado nav .container-fluid a {
+  text-decoration: none;
+  margin-right: 70px;
+  color: rgb(2, 2, 2);
+  font-size: 24px;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  cursor: pointer;
+}
+
+/*estilos del main inicial*/
+.principal-main-inicio .presentacion {
+  display: flex;
+  justify-content: center;
+}
+.principal-main-inicio .presentacion .foto img {
+  width: 1250px;
+  height: 330px;
+  position: relative;
+  margin-top: 55px;
+}
+.principal-main-inicio h1 {
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 50px;
+  text-align: center;
+  margin: 25px;
+  color: #fff;
+  text-shadow: 3px 5px 10px #2e5f9b;
+}
+.principal-main-inicio .video {
+  display: flex;
+  justify-content: center;
+  margin: 80px;
+}
+.principal-main-inicio .texto-inicio p {
+  text-align: center;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 28px;
+  position: relative;
+  margin: 150px;
+}
+
+.section-2 {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+}
+.section-2 .imag1 img {
+  height: 350px;
+  width: 500px;
+  border-radius: 25px;
+}
+.section-2 .imag2 img {
+  height: 350px;
+  width: 500px;
+  border-radius: 25px;
+}
+
+.tex .texto-explicativo p {
+  text-align: center;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 28px;
+  position: relative;
+  margin: 100px;
+}
+
+/*estilos pagina zapatos*/
+.principal-main-zapatos div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 50px;
+}
+.principal-main-zapatos div h1 {
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 50px;
+  text-align: center;
+  margin: 30px;
+  color: #fff;
+  text-shadow: 3px 5px 10px #2e5f9b;
+}
+.principal-main-zapatos section .presentacion-zapatos {
+  display: flex;
+  justify-content: space-around;
+}
+.principal-main-zapatos section .presentacion-zapatos .imag-zapatos img {
+  width: 600px;
+  height: 550px;
+  margin: 10px;
+  border-radius: 15px;
+}
+.principal-main-zapatos section .tex-z p {
+  text-align: center;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 28px;
+  position: relative;
+  margin: 100px;
+}
+.principal-main-zapatos section .imag-zapatos-mujer img {
+  width: 620px;
+  height: 550px;
+  margin: 15px;
+  margin-top: 50px;
+  border-radius: 15px;
+}
+
+/*estilos pagina marroquineria*/
+.principal-main-marroquineria .titulo-m h1 {
+  display: flex;
+  justify-content: flex-start;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 80px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 3px 5px 15px #2e5f9b;
+  position: relative;
+  top: 120px;
+  margin-left: 30px;
+}
+.principal-main-marroquineria .fila {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: no-wrap;
+}
+.principal-main-marroquineria .fila img {
+  width: 100%;
+}
+.principal-main-marroquineria .fila img:hover {
+  transform: scale(1.4);
+  transition: 1.8s;
+  cursor: pointer;
+}
+.principal-main-marroquineria .fila .columna {
+  flex: 30%;
+}
+.principal-main-marroquineria .fila .columna2 img {
+  display: flex;
+  justify-content: space-around;
+  height: 450px;
+  width: 320px;
+  flex: 25%;
+}
+
+.tex-m {
+  text-align: center;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 28px;
+  position: relative;
+  margin: 80px;
+}
+
+/*estilo pagina vestimenta*/
+.principal-v .foto-principal-v img {
+  position: relative;
+  top: 60px;
+  margin-left: 100px;
+}
+.principal-v .contenedor-v .tex-v {
+  display: flex;
+  justify-content: center;
+}
+.principal-v .contenedor-v .tex-v h1 {
+  display: flex;
+  justify-content: center;
+  margin: 90px;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 60px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 3px 5px 15px #2e5f9b;
+}
+.principal-v .contenedor-v .tex-v p {
+  position: relative;
+  text-align: center;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 28px;
+  margin: 40px;
+}
+.principal-v .imag-parte2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+  margin-top: 20px;
+  flex-wrap: no-wrap;
+}
+.principal-v .imag-parte2 .fotos-v {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  height: 350px;
+  width: 220px;
+  flex: 15%;
+}
+.principal-v .imag-parte2 .fotos-v:hover {
+  transform: scale(1.1);
+  transition: 2s;
+}
+
+/*estilos de pagina de contacto*/
+.padre-c {
+  background-image: url(../imagenes/imagen-de-fondo-contacto.jpg);
+  background-repeat: no-repeat;
+  background-position: center 80px;
+  background-attachment: fixed;
+  background-size: auto;
+}
+
+.principal-contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.principal-contacto .contenedor-c {
+  position: relative;
+  margin: 100px;
+}
+.principal-contacto .contenedor-c h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 60px;
+  color: #fff;
+  text-shadow: 3px 5px 20px #2e5f9b;
+}
+.principal-contacto .contenedor-c p {
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 30px;
+  color: #fff;
+  margin-top: 20px;
+  position: relative;
+}
+
+.mapa-contacto h2 {
+  text-align: center;
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 60px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 3px 5px 20px #2e5f9b;
+  margin-bottom: 40px;
+}
+.mapa-contacto .mapa {
+  display: flex;
+  justify-content: center;
+}
+
+/*final de pagina se repite en todos los html*/
+.final-pag {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 100px;
+}
+.final-pag .boton-flcha img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 3px 5px 20px #2e5f9b;
+  cursor: pointer;
+}
+.final-pag .boton-contacto a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  cursor: pointer;
+  background-image: linear-gradient(to right, rgba(114, 114, 114, 0.851) 50%, rgb(47, 98, 209) 50%);
+  background-size: 200%;
+  background-repeat: no-repeat;
+  background-position: left;
+  transition: background-position 1s ease;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 3px 5px 10px #000000;
+}
+.final-pag .boton-contacto a:hover {
+  background-position: right;
+  box-shadow: none;
+}
+.final-pag .boton-whatsapp img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.footer {
+  font-family: "Anek Devanagari", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 15px;
+  text-align: center;
+  background-image: linear-gradient(rgba(56, 117, 191, 0.2470588235), rgba(238, 238, 238, 0.2470588235));
+  color: #000000;
+}
+
+/*media Q*/
+/*estlios tablet de la pag de inicio*/
+@media screen and (max-width: 1023px) {
+  .foto img {
+    display: flex;
+    width: 100%;
+  }
+  .section-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: 10px;
+    padding: 10px;
+  }
+  .section-2 .imag1 img {
+    width: 100%;
+    height: 500px;
+  }
+  .section-2 .imag2 {
+    display: none;
+  }
+  /*estilos de tablet pag zapatos*/
+  .imag-zapatos {
+    display: flex;
+    width: 100%;
+  }
+  .imag-zapatos-mujer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 40px;
+  }
+  .imag-zapatos-mujer img {
+    width: 450px;
+    height: 400px;
+    margin: 5%;
+  }
+  /*estilos tablet pag marroquineria*/
+  .fila {
+    margin-top: -50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .fila .columna {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .columna2 {
+    display: none;
+  }
+  /*estolos tablet para pg vestimenta*/
+  .principal-v {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .contenedor-v .tex-v h1 {
+    display: flex;
+    justify-content: center;
+  }
+  .contenedor-v .tex-v p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 10px;
+  }
+  .imag-parte2 .fotos-v {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+  }
+}
+/*estilos pra mobile*/
+@media screen and (max-width: 599px) {
+  /*estilos para mobile pag de incio */
+  .principal-main-inicio .foto img {
+    display: none;
+  }
+  .principal-main-inicio h1 {
+    margin-top: 15%;
+  }
+  .texto-inicio p {
+    display: inline-block;
+    margin-left: 30%;
+  }
+  .final-pag {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+  /*estilo para mobile pag zapatos*/
+  .presentacion-zapatos .img-red {
+    display: none;
+  }
+  .imag-zapatos-mujer .img-red {
+    display: none;
+  }
+  /*estilos para mobile pag marroniqueria*/
+  .fila {
+    margin-top: 50px;
+  }
+  .principal-main-marroquineria .titulo-m h1 {
+    font-size: 60px;
+    position: relative;
+    top: 45px;
+    margin-left: 0px;
+  }
+  /*estilos para mobile pag vestimenta*/
+  .principal-v .foto-principal-v img {
+    height: 500px;
+    width: 400px;
+    margin-left: 50px;
+  }
+  .imag-parte2 .fotos-v .fot {
+    display: none;
+  }
+  .imag-parte2 .fotos-v {
+    height: 100%;
+    margin: 15px;
+    gap: 40px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

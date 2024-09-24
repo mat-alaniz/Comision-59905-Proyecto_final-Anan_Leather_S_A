@@ -50,13 +50,7 @@
     @include borrar;
   }
   /*estolos tablet para pg vestimenta*/
-.foto-campera{
-  display: flex;
-  justify-content: center;
-  
-  width: 80%;
-  
-}
+
   .principal-v {
     @include grid-fr;
   }
@@ -72,11 +66,9 @@
   }
 
   .imag-parte2 .fotos-v {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-left: 10%;
-  }
-  .imag-parte2 .foto-v img {
-    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+
   }
 }
