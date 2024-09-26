@@ -37,12 +37,12 @@
     font-style: normal;
     font-size: 28px;
     position: relative;
-    
+    margin: 10px;
   }
 }
 .section-2 {
   @include flex-around;
-  margin: 50px;
+  margin: 10px;
   
   .imag1 img {
     height: 350px;
@@ -64,6 +64,6 @@
         font-style: normal;
         font-size: 28px;
         position: relative;
-        
+        margin: 10px;
       }
 }
