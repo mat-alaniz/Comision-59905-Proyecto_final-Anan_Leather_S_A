@@ -11,7 +11,7 @@
   }
   .texto-inicio p {
     display: inline-block;
-    margin-left: 30%;
+   
   }
   .final-pag {
     @include flex-centro;
@@ -27,7 +27,10 @@
 
   /*estilos para mobile pag marroniqueria*/
   .fila {
-    margin-top: 50px;
+    img{
+      width: 100%;
+    padding: -20px;
+    }
   }
   .principal-main-marroquineria .titulo-m h1 {
     font-size: 60px;
