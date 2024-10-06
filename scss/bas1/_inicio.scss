@@ -2,7 +2,6 @@
 @import "../utilidades/variables";
 @import "../utilidades/mixin";
 
-
 .principal-main-inicio {
   .presentacion {
     @include flex-centro;
@@ -38,13 +37,12 @@
     font-size: 28px;
     position: relative;
     margin: 10px;
-
   }
 }
 .section-2 {
   @include flex-around;
   margin: 10px;
-  
+
   .imag1 img {
     height: 350px;
     width: 500px;
@@ -56,15 +54,15 @@
     border-radius: 25px;
   }
 }
-.tex{
-    .texto-explicativo p {
-        text-align: center;
-        font-family: "Caveat", cursive;
-        font-optical-sizing: auto;
-        font-weight: weight;
-        font-style: normal;
-        font-size: 28px;
-        position: relative;
-        margin: 10px;
-      }
+.tex {
+  .texto-explicativo p {
+    text-align: center;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 28px;
+    position: relative;
+    margin: 10px;
+  }
 }
