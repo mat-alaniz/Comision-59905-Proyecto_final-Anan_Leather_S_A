@@ -216,11 +216,6 @@ body {
 }
 
 /*estilo pagina vestimenta*/
-.principal-v .foto-principal-v img {
-  position: relative;
-  top: 60px;
-  margin-left: 100px;
-}
 .principal-v .contenedor-v .tex-v {
   display: flex;
   justify-content: center;
@@ -252,9 +247,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 5px;
   margin-top: 20px;
-  flex-wrap: no-wrap;
 }
 .principal-v .imag-parte2 .fotos-v {
   display: flex;
