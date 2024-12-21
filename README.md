@@ -1,0 +1,1 @@
+Este repositorio contiene el código fuente de la página web para una curtiembre argentina. El sitio está construido utilizando tecnologías web modernas como HTML, CSS, SASS y JavaScript, con el objetivo de ofrecer una experiencia atractiva y fácil de usar para los visitantes interesados en conocer más sobre los productos y servicios de la curtiembre.
