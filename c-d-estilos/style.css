@@ -8,6 +8,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Caveat:wght@400..700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap");
 /*letra <p> contacto*/
 @import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap");
+/*letra texto*/
+@import url("https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Caveat:wght@400..700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Nanum+Gothic:wght@400;700;800&family=Playwrite+DE+Grund:wght@100..400&display=swap");
 * {
   outline: none;
   border: none;
@@ -63,7 +65,7 @@ body {
   justify-content: center;
 }
 .principal-main-inicio .presentacion .foto img {
-  width: 1250px;
+  width: 100%;
   height: 330px;
   position: relative;
   margin-top: 55px;
@@ -92,13 +94,13 @@ body {
   font-style: normal;
   font-size: 28px;
   position: relative;
-  margin: 150px;
+  margin: 10px;
 }
 
 .section-2 {
   display: flex;
   justify-content: space-around;
-  margin: 50px;
+  margin: 10px;
 }
 .section-2 .imag1 img {
   height: 350px;
@@ -119,7 +121,7 @@ body {
   font-style: normal;
   font-size: 28px;
   position: relative;
-  margin: 100px;
+  margin: 10px;
 }
 
 /*estilos pagina zapatos*/
@@ -159,7 +161,7 @@ body {
   font-style: normal;
   font-size: 28px;
   position: relative;
-  margin: 100px;
+  margin-top: 10%;
 }
 .principal-main-zapatos section .imag-zapatos-mujer img {
   width: 620px;
@@ -189,25 +191,18 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: no-wrap;
 }
 .principal-main-marroquineria .fila img {
   width: 100%;
+  padding: 20px;
 }
 .principal-main-marroquineria .fila img:hover {
-  transform: scale(1.4);
-  transition: 1.8s;
+  transform: translateX(-20px) scale(1.4);
+  transition: 1.5s;
   cursor: pointer;
 }
 .principal-main-marroquineria .fila .columna {
   flex: 30%;
-}
-.principal-main-marroquineria .fila .columna2 img {
-  display: flex;
-  justify-content: space-around;
-  height: 450px;
-  width: 320px;
-  flex: 25%;
 }
 
 .tex-m {
@@ -218,15 +213,9 @@ body {
   font-style: normal;
   font-size: 28px;
   position: relative;
-  margin: 80px;
 }
 
 /*estilo pagina vestimenta*/
-.principal-v .foto-principal-v img {
-  position: relative;
-  top: 60px;
-  margin-left: 100px;
-}
 .principal-v .contenedor-v .tex-v {
   display: flex;
   justify-content: center;
@@ -258,9 +247,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 5px;
   margin-top: 20px;
-  flex-wrap: no-wrap;
 }
 .principal-v .imag-parte2 .fotos-v {
   display: flex;
@@ -269,10 +256,6 @@ body {
   height: 350px;
   width: 220px;
   flex: 15%;
-}
-.principal-v .imag-parte2 .fotos-v:hover {
-  transform: scale(1.1);
-  transition: 2s;
 }
 
 /*estilos de pagina de contacto*/
@@ -424,7 +407,7 @@ body {
   }
   /*estilos tablet pag marroquineria*/
   .fila {
-    margin-top: -50px;
+    padding: -20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
@@ -470,7 +453,6 @@ body {
   }
   .texto-inicio p {
     display: inline-block;
-    margin-left: 30%;
   }
   .final-pag {
     display: flex;
@@ -485,8 +467,9 @@ body {
     display: none;
   }
   /*estilos para mobile pag marroniqueria*/
-  .fila {
-    margin-top: 50px;
+  .fila img {
+    width: 100%;
+    padding: -20px;
   }
   .principal-main-marroquineria .titulo-m h1 {
     font-size: 60px;
